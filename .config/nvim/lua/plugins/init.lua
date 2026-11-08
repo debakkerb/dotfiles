@@ -7,4 +7,4 @@ require("plugins.diagnostics")
 require("plugins.formatting")
 require("plugins.treesitter")
 require("plugins.completions")
-
+require("plugins.git")
