@@ -15,6 +15,7 @@ vim.keymap.set(
 	{ silent = true }
 )
 vim.keymap.set("n", "<leader>sg", "<cmd>Telescope live_grep<CR>", { silent = true })
+vim.keymap.set("n", "<leader>sf", "<cmd>Telescope find_files<CR>", { silent = true })
 vim.keymap.set("n", "<leader>sb", "<cmd>Telescope buffers<CR>", { silent = true })
 vim.keymap.set("n", "<leader>sd", "<cmd>Telescope diagnostics<CR>", { silent = true })
 vim.keymap.set("n", "<leader>sh", "<cmd>Telescope help_tags<CR>", { silent = true })
