@@ -56,3 +56,8 @@ An overview of all shortcuts that currently exist in this repository. Currently 
 | ---------- | ------------------- |
 | <leader>sg | Telescope live_grep |
 | <leader>sb | Telescope buffers   |
+
+# Useful Commands
+
+- Check which filetype the current file has (LSP troubleshooting): `:set filetype?`
+- Check which LSP is attached to the current buffer: `che vim.lsp`

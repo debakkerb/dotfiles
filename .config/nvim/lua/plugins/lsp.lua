@@ -1,32 +1,32 @@
 vim.pack.add({
-  { src = "https://github.com/neovim/nvim-lspconfig" },
-  { src = "https://github.com/rachartier/tiny-code-action.nvim" },
+	{ src = "https://github.com/neovim/nvim-lspconfig" },
+	{ src = "https://github.com/rachartier/tiny-code-action.nvim" },
 })
 
-vim.lsp.enable({ "lua_ls", "gopls" })
+vim.lsp.enable({ "lua_ls", "gopls", "terraformls" })
 
 require("tiny-code-action").setup({
-  picker = {
-    "telescope",
-    opts = {
-      layout_strategy = "horizontal",
-      layout_config = {
-        horizontal = {
-          prompt_position = "top",
-          width = 0.8,
-          height = 0.8,
-          preview_width = 0.5,
-        },
-      },
-      sorting_strategy = "ascending",
-      prompt_prefix = "",
-      entry_prefix = " ",
-      prompt_title = false,
-      results_title = false,
-      preview_title = false,
-    },
-  },
-  backend = "delta",
+	picker = {
+		"telescope",
+		opts = {
+			layout_strategy = "horizontal",
+			layout_config = {
+				horizontal = {
+					prompt_position = "top",
+					width = 0.8,
+					height = 0.8,
+					preview_width = 0.5,
+				},
+			},
+			sorting_strategy = "ascending",
+			prompt_prefix = "",
+			entry_prefix = " ",
+			prompt_title = false,
+			results_title = false,
+			preview_title = false,
+		},
+	},
+	backend = "delta",
 })
 
 vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, { desc = "go to definition" })
