@@ -35,10 +35,3 @@ config checkout
 config config status.showUntrackedFiles no
 ```
 
-# Bootstrap
-
-```shelL
-set -euo pipefail
-
-```
-

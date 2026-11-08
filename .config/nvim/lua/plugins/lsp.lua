@@ -3,7 +3,7 @@ vim.pack.add({
   { src = "https://github.com/rachartier/tiny-code-action.nvim" },
 })
 
-vim.lsp.enable({ "gopls" })
+vim.lsp.enable({ "lua_ls", "gopls" })
 
 require("tiny-code-action").setup({
   picker = {
