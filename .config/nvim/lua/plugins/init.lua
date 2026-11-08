@@ -1,0 +1,10 @@
+require("plugins.colorscheme")
+require("plugins.telescope")
+require("plugins.lsp")
+require("plugins.oil")
+require("plugins.mini")
+require("plugins.diagnostics")
+require("plugins.formatting")
+require("plugins.treesitter")
+require("plugins.completions")
+
