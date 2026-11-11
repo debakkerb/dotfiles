@@ -43,6 +43,6 @@ vim.api.nvim_create_user_command("PackUpdate", function(opts)
 end, { nargs = "*", desc = "Update all plugins or specific ones" })
 
 -- Auto-save
-vim.api.nvim_create_autocmd({ "FocusLost", "InsertLeave", "TextChanged" }, {
+vim.api.nvim_create_autocmd({ "FocusLost", "InsertLeave" }, {
 	command = "silent! update",
 })
