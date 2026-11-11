@@ -62,9 +62,9 @@ An overview of all shortcuts that currently exist in this repository. Currently 
 | <leader>sh | Telescope help_tags                    |
 | <leader>su | Telescope git_status                   |
 | <leader>s. | Telescope resume                       |
-| <C-x>      | Open selected file in horizontal split |
-| <C-v>      | Open selected file in vertical split   |
-| <C-t>      | Open file in a new tab                 |
+| C-x      | Open selected file in horizontal split |
+| C-v      | Open selected file in vertical split   |
+| C-t      | Open file in a new tab                 |
 
 # Useful Commands
 
