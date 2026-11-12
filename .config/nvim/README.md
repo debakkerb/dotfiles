@@ -4,38 +4,38 @@ An overview of all shortcuts that currently exist in this repository. Currently 
 
 ## VIM
 
-| Shortcut   | Description            |
-| ---------- | ---------------------- |
-| <leader>re | Restart                |
-| <leader>d  | Show diagnostic float  |
-| K          | Scroll up and center   |
-| J          | Scroll down and center |
-| <leader>v  | Vertical split         |
-| <          | (VISUAL) Unindent      |
-| >          | (VISUAL) Indent        |
-| <leader>X  | Make file executable   |
+| Shortcut         | Description            |
+| ---------------- | ---------------------- |
+| &lt;leader&gt;re | Restart                |
+| &lt;leader&gt;d  | Show diagnostic float  |
+| K                | Scroll up and center   |
+| J                | Scroll down and center |
+| &lt;leader&gt;v  | Vertical split         |
+| &lt;             | (VISUAL) Unindent      |
+| &gt;             | (VISUAL) Indent        |
+| &lt;leader&gt;X  | Make file executable   |
 
 ## Completions
 
-| Shortcut  | Description                             |
-| --------- | --------------------------------------- |
-| Tab       | Accept, go to next placeholder, falback |
-| S-Tab     | Go to previous placeholder, falback     |
-| <C-Space> | Show                                    |
-| J         | Select next / fallback                  |
-| K         | Select prev / fallback                  |
+| Shortcut        | Description                             |
+| --------------- | --------------------------------------- |
+| Tab             | Accept, go to next placeholder, falback |
+| S-Tab           | Go to previous placeholder, falback     |
+| &lt;C-Space&gt; | Show                                    |
+| J               | Select next / fallback                  |
+| K               | Select prev / fallback                  |
 
 ## LSP
 
-| Shortcut   | Description           |
-| ---------- | --------------------- |
-| <leader>gd | Go to definition      |
-| <leader>gD | Go to declaration     |
-| <leader>gi | Go to implementation  |
-| <leader>gt | Go to type definition |
-| <leader>gr | Find reference        |
-| <leader>h  | Hover documentation   |
-| <leader>rn | Rename symbol         |
+| Shortcut         | Description           |
+| ---------------- | --------------------- |
+| &lt;leader&gt;gd | Go to definition      |
+| &lt;leader&gt;gD | Go to declaration     |
+| &lt;leader&gt;gi | Go to implementation  |
+| &lt;leader&gt;gt | Go to type definition |
+| &lt;leader&gt;gr | Find reference        |
+| &lt;leader&gt;h  | Hover documentation   |
+| &lt;leader&gt;rn | Rename symbol         |
 
 ## Surround (Mini)
 
@@ -47,24 +47,24 @@ An overview of all shortcuts that currently exist in this repository. Currently 
 
 ## Oil
 
-| Shortcut  | Description |
-| --------- | ----------- |
+| Shortcut        | Description |
+| --------------- | ----------- |
 | &lt;leader&gt;e | Open Oil    |
 
 ## Telescope
 
-| Shortcut   | Description                            |
-| ---------- | -------------------------------------- |
-| <leader>sg | Telescope live_grep                    |
-| <leader>sb | Telescope buffers                      |
-| <leader>sf | Telescope find_files                   |
-| <leader>sd | Telescope diagnostics                  |
-| <leader>sh | Telescope help_tags                    |
-| <leader>su | Telescope git_status                   |
-| <leader>s. | Telescope resume                       |
-| C-x      | Open selected file in horizontal split |
-| C-v      | Open selected file in vertical split   |
-| C-t      | Open file in a new tab                 |
+| Shortcut         | Description                            |
+| ---------------- | -------------------------------------- |
+| &lt;leader&gt;sg | Telescope live_grep                    |
+| &lt;leader&gt;sb | Telescope buffers                      |
+| &lt;leader&gt;sf | Telescope find_files                   |
+| &lt;leader&gt;sd | Telescope diagnostics                  |
+| &lt;leader&gt;sh | Telescope help_tags                    |
+| &lt;leader&gt;su | Telescope git_status                   |
+| &lt;leader&gt;s. | Telescope resume                       |
+| &lt;C-x&gt;      | Open selected file in horizontal split |
+| &lt;C-v&gt;      | Open selected file in vertical split   |
+| &lt;C-t&gt;      | Open file in a new tab                 |
 
 # Useful Commands
 
