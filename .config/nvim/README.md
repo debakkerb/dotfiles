@@ -49,7 +49,7 @@ An overview of all shortcuts that currently exist in this repository. Currently 
 
 | Shortcut  | Description |
 | --------- | ----------- |
-| <leader>e | Open Oil    |
+| &lt;leader&gt;e | Open Oil    |
 
 ## Telescope
 
