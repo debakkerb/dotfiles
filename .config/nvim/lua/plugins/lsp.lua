@@ -36,3 +36,7 @@ vim.keymap.set("n", "<leader>gt", vim.lsp.buf.type_definition, { desc = "go to t
 vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, { desc = "find references" })
 vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, { desc = "hover documentation" })
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "rename symbol" })
+
+vim.keymap.set({ "n", "x" }, "<leader>ca", function()
+	require("tiny-code-action").code_action()
+end, { silent = true, noremap = true, desc = "code action" })

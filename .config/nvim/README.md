@@ -38,6 +38,7 @@ Leader = Space.
 | &lt;leader&gt;gr | Find reference        |
 | &lt;leader&gt;h  | Hover documentation   |
 | &lt;leader&gt;rn | Rename symbol         |
+| &lt;leader&gt;ca | Code action popup     |
 
 ## Surround (Mini)
 
