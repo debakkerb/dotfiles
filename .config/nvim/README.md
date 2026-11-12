@@ -2,6 +2,8 @@
 
 An overview of all shortcuts that currently exist in this repository. Currently done manually, the goal is to automate this.
 
+Leader = Space.
+
 ## VIM
 
 | Shortcut         | Description            |
