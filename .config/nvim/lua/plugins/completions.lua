@@ -9,8 +9,6 @@ require("blink.cmp").setup({
 	},
 	keymap = {
 		preset = "default",
-		["<Tab>"] = { "accept", "snippet_forward", "fallback" },
-		["<S-Tab>"] = { "snippet_backward", "fallback" },
 		["<C-Space>"] = { "show" },
 		["J"] = { "select_next", "fallback" },
 		["K"] = { "select_prev", "fallback" },
