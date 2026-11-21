@@ -4,11 +4,11 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	pattern = "*",
 	desc = "highlight selection on yank",
 	callback = function()
-		vim.hl.hl_op({ timeout = 200, on_visual = true })
+		local yank_func = vim.hl.hl_op or vim.hl.on_yank
+		yank_func({ timeout = 200, on_visual = true })
 	end,
 })
 
--- open help in vertical split
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = "help",
 	command = "wincmd L",

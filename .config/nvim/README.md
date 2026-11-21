@@ -50,9 +50,11 @@ Leader = Space.
 
 ## Oil
 
-| Shortcut        | Description |
-| --------------- | ----------- |
-| &lt;leader&gt;e | Open Oil    |
+| Shortcut        | Description   |
+| --------------- | ------------- |
+| &lt;leader&gt;e | Open Oil      |
+| -               | Parent        |
+| g.              | Toggle hidden |
 
 ## Telescope
 
